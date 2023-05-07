@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Seminararbeit_Physik_Lernapp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="start">Start</string>
+    <string name="lernapp_label">Physik Lernapp</string>
+    <string name="selectThemeLabel">Wählen Sie Ihr Themengebiet</string>
+    <string-array name="PhysicTheme">
+        <item>Das magnetische Feld</item>
+        <item>Das elektrische Feld</item>
+        <item>Das Gravitationsfeld</item>
+        <item>Teilchen in Feldern</item>
+    </string-array>
+    <string name="magnetischeFeld">Das magnetische Feld</string>
+    <string name="elektrischeFeld">Das elektrische Feld</string>
+    <string name="gravitationsfeld">Das Gravitationsfeld</string>
+    <string name="teilchenInFeldern">Teilchen in Feldern</string>
+    <string name="scroll">Scroll</string>
+    <string name="tmp">e.g 8</string>
+    <string name="mangetFeldBeschreibung">Das Magnetfeld der Erde ist für uns alle Essenziel und spielt eine wichtige Rolle für unser Leben. Eben dieses Magnetfeld schützt uns jedoch nicht nur tagtäglich vor Astronomischen Strahlungen, sondern erst durch die Hilfe von Magnetfeldern ist die heutige Physik möglich. \n Nun jedoch erstmal die Themen!</string>
+    <string name="derMagnet">Der Magnet</string>
+    <string name="magnetFelderOhneMagnete">Magnetfelder ohne Magnete</string>
+    <string name="Lorentzkraft">Die Lorentzkraft</string>
+    <string name="Definition">Die Definition:</string>
+    <string name="Definition_Magnet">\'\'Eisen- oder Stahlstück, das die Eigenschaft besitzt, Eisen, Kobalt und Nickel anzuziehen und an sich haften zu lassen\'\'</string>
+    <string name="magneteUndElektrischeLadungen">Magnete und elektrische Ladungen:</string>
+    <string name="elementarteilchenImMagnetfeld">Elementarteilchen im Magnetfeld</string>
+    <string name="MeL_1">Wir wissen bereits, dass sich gleiche elektrische Ladungen abstoßen und unterschiedliche anziehen.</string>
+    <string name="MeL_2">Doch heißt das, dass elektrische Ladungen und magnetische Pole dasselbe sind?</string>
+    <string name="MeL_1_DES">Elektrische Ladungen die sich anziehen und abstoßen.</string>
+    <string name="MeL_2_DES">Magnete, welche sich anziehen und abstoßen.</string>
+    <string name="MeL_3">Nein, auch wenn beide spezifische Objekte anziehen, beziehungsweiße abstoßen könne, so kennen wir drei wesentliche Unterschiede.</string>
+    <string name="MeL_4">Unterschied 1:</string>
+    <string name="MeL_5">Elektrisch geladene Objekte wirken ständig eine Kraft auf Körper in ihrer Umgebung aus. Magnete im Gegenzug dazu wirken nur eine Kraft auf Objekte aus, welche Kobalt, Eisen oder Nickel enthalten.</string>
+    <string name="MeL_6">Unterschied 2:</string>
+    <string name="MeL_7">Man kann Objekte wie zum Beispiel eine Eisenstange mit Magneten magnetisieren, durch das Bestreichen der Eisen Oberfläche mit dem Magneten. Hierbei wird allerdings das Eisen nicht magnetisch „Aufgeladen“, stattdessen ordnen sich die im Eisen vorhanden Elementarmagnete neu an. \n Doch was sind Elementarmagnete?</string>
+    <string name="MeL_8">Elementarmagnete:</string>
+    <string name="MeL_9">Die Einheit von einem magnetisierbaren Material, mit magnetischen Dipolen, welche eine konstante Größe doch variable Ausrichtung haben, nennt man Elementarmagnete. Wenn diese Elementarmagnete alle gleich ausgerichtet sind, wird das Material magnetisch, sollten jedoch alle Elementarmagnete gleich oft in jede Richtung zeigen, so heben sie sich auf und das Material ist unmagnetisch.</string>
+    <string name="MeL_3_DES">Ungeordnete Elementarmagnte | Geordnete Elementarmagnete</string>
+    <string name="MeL_10">Links ist hierbei unmagnetisch und rechts wäre magnetisch.</string>
+    <string name="MeL_11">Unterschied 3:</string>
+    <string name="MeL_12">Bei elektrischen Ladungen können wir positive und negative Ladungen voneinander trenne. Dies ist jedoch bei Magneten nicht möglich, den wenn man einen Magnet zerteilt, entstehen einzelne Dipole.</string>
+    <string name="MeL_4_DES">Dss Zerteilen von Magneten.</string>
+    <string name="DmF_1">Nun gibt es jedoch bei Magneten mehr als nur Pole, den Magnete haben zudem Felder, beim Magnetisieren eines magnetisierbaren Materials entsteht ebenfalls ein Feld, welches auch gemessen werden kann.</string>
+    <string name="Feldlinien">Die Feldlinien</string>
+    <string name="DmF_2">Dieses Feld wirkt eine Kraft auf Magneten so wie magnetisches Material aus. Dieses sogenannte magnetisches Feld, hat zudem Feldlinien, diese bestreiten eine gekrümmte Bahn und verlaufen vom Nordpol zum Südpol.</string>
+    <string name="tmpdescription">tmpDESCRIPTION</string>
+    <string name="DmF_3">Bei zwei unterschiedlichen Polen entsteht ein sogenanntes homogenes Feld, hierbei verlaufen die Feldlinien fast schon geradlinig und parallel zueinander. Diese Eigenschaft lässt sich, dadurch erklären, dass die Feldlinien die Tendenz haben sich in vertikaler Richtung zu verkürzen und in horizontaler Richtung abzustoßen. Bei zwei gleichnamigen Polen kann man diese Eigenschaft besonders gut sehen.</string>
+    <string name="MoM_1">Strom kann ebenfalls ein Magnetfeld erzeugen, mit Hilfe der Linken-Hand-Regel können wir hierbei zudem die Feldlinien bestimmen.</string>
+    <string name="linke_hand_regel">Die Linke-Hand-Regel</string>
+    <string name="MoM_2">Die Linke-Hand-Regel funktioniert indem man den elektrischen Leiter, mit seiner linken Hand umfasst, jedoch nicht berührt, hierbei muss der Daumen in Richtung des Elektronenstromes zeigen. Die restlichen Finger der Hand zeigen nun in Richtung der Feldlinien.</string>
+    <string name="MoM_3">Da die Feldlinien kreisförmig um den elektrischen Leiter herum gehen, gibt es keinen Nord- beziehungsweiße Südpol. Ein solches Feld wird als Wirbelfeld bezeichnet.</string>
+    <string name="lorentzkraft">Die Lorentzkraft</string>
+    <string name="lk_1">Zunächst einmal können wir die Richtung der Lorentzkraft herausfinden, hierbei müssen wir jedoch unterscheiden zwischen Elektron und Protonen.</string>
+    <string name="elektronen">Elektronen</string>
+    <string name="lk_2">Für Elektronen nehmen wir wie bereits bei der Linken-Hand-Regel unsere linke Hand und lassen den Daumen in Richtung des Elektronenstromes zeigen. Als nächstes lassen wir den Zeigefinger in einem Rechtenwinkel abstehen, dieser zeigt in Richtung des Magnetischen Feldes. Als letzten lassen wir den Mittelfinger ebenfalls in einem Rechtenwinkel abstehen, dieser zeigt nun die Lorenzkraft an.</string>
+    <string name="protonen">Protonen</string>
+    <string name="lk_3">Für Protonen machen wir dasselbe, jedoch nehmen wir hierbei die rechte Hand. Um nun die tatsächliche Lorenzkraft ausrechnen zu können brauchen wir mehrere Einheiten, zunächst einmal brauchen wir die Driftgeschwindigkeit v. Die Driftgeschwindigkeit ist die Durchschnittgeschwindigkeit, mit welcher sich Elektronen, in die gegen Richtung eines elektrischen Feldes bewegen.</string>
+    <string name="ladung">Die Ladung</string>
+    <string name="lk_4">Zudem benötigen wir noch die Ladung q eines Teilchens, die Ladung können wir uns als</string>
+    <string name="lk_5">vorstellen.</string>
+    <string name="lk_6">N ist hierbei die Anzahl unserer freien Elektronen, e steht hierbei für die Elementarladung und ist eine konstante Zahl mit dem Wert</string>
+    <string name="lk_7">Als Letztes benötigen wir noch die magnetische Flussdichte B, um diese berechnen zu können brauchen wir den magnetischen Fluss</string>
+    <string name="lk_8">dieser hat die Einheit Weber (Wb) was einer Voltsekunde (Vs) entspricht.</string>
+    <string name="lk_9">Den Magnetischen Fluss teilen wir anschließend durch die Fläche des Feldes A, damit kommen wir dann auf die Flussdichte B welche die Einheit Tesla (T) trägt.</string>
+    <string name="lk_10"><![CDATA[Anschließend müssen wir nur noch die Ladung q mit der Driftgeschwindigkeit v und der Flussdichte B multiplizieren, wodurch wir folgende Formel erhalten:]]></string>
+    <string name="lk_11">Diese Formel gilt allerdings nur, wenn sich die geladenen Teilchen senkrecht zur Richtung des Magnetfeldes bewegen. Ansonsten ergänzen wir zu der Formel noch den</string>
+    <string name="lk_12">wobei Alpha der Winkel ist mit welchem sich die Teilchen auf das Magnetfeld zubewegen.</string>
+    <string name="lk_13">Wir können allerdings die Flussdichte B auch noch mit einer anderen Formel bestimmen, diese funktioniert allerdings nur, wenn man einen Strom führende Spule hat. Hierfür benötigen wir die magnetische Feldkonstante</string>
+    <string name="lk_14">diese ist eine Naturkonstante und hat den Wert</string>
+    <string name="lk_15">Zudem brauchen wir noch die Anzahl der Windungen n, sowie die Länge der Spule l und die Stärke des durch den Spulendraht fließenden Stromes I</string>
+    <string name="lk_16">Jetzt müssen wir nur noch die magnetische Feldkonstante</string>
+    <string name="lk_17">mit der Stärke des Stroms I und den Windungen n dividiert durch die Länge der Spulen l rechnen um auf folgende Formel zukommen:</string>
+    <string name="lk_18">Sollte innerhalb der Spule jedoch nun ein Materialstecken, benötigen wir noch die Permeabilitätszahl</string>
+    <string name="lk_19">um diese herauszufinden müssen wir den Wert der Flussdichte mit dem Material</string>
+    <string name="lk_20">durch die Flussdichte ohne das Material in der Spule</string>
+    <string name="lk_21">dividieren, diese Werte kann man mit einer sogenannten Hallsonde ermitteln.</string>
+    <string name="EoM_1">Um es verständlicher zumachen schauen wir uns geladene Teilchen in einem homogenen Magnetfeld an. Diese erfahren dort nach der Dreifinger-Regel und unserer Formel die Kraft mit dem Betrag</string>
+    <string name="EoM_2">welche senkrecht zur Bahn wirkt. Da die Teilchen weder beschleunigen noch langsamer werden wirkt die Lorentzkraft als Zentripetalkraft wodurch gilt:</string>
+    <string name="EoM_3">Da wir sowohl die Formel für die Lorentzkraft</string>
+    <string name="EoM_4">sowie auch die Formel für die Zentripetalkraft</string>
+    <string name="EoM_5">kennen, können wir diese nun gleichsetzen, dadurch erhalten wir die Formel</string>
+    <string name="EoM_6">wenn wir dis ganze nun nach dem Radius r auflösene kommen wir auf die Formel</string>
+    <string name="EoM_7">für den Radius einer Kreisbahn.</string>
+    <string name="formel_überblick">Formel Überblick:</string>
+    <string name="aufgaben">Aufgaben</string>
+    <string name="test">TEST</string>
+    <string name="Formel_2">Flussdichte:</string>
+    <string name="Formel_1">Ladungen:</string>
+    <string name="Formeln_txt_1">In einer Stromführenden Spule:</string>
+    <string name="Formel_3">Lorentzkraft:</string>
+    <string name="Formel_txt_2">Geladene Teilchen im 90° Winkel:</string>
+    <string name="Formel_txt_3">Ansonsten:</string>
+    <string name="Formel_4">Radius im homogenen Magnetfeld:</string>
+</resources>

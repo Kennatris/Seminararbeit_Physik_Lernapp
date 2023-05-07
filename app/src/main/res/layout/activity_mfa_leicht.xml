@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MFA_Leicht">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Aufgabe 1 -->
+        <LinearLayout
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/total_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Questions:  "
+                android:textSize="20sp"
+                android:gravity="center"/>
+
+            <!-- Aufgabe 1 -->
+            <LinearLayout
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Aufgabe 1:"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Magneten ziehen sich, genauso wie elektrische Ladungen gegnseitig an, wenn diese Gleichnamig sind. \nHeißt dass, das elektrische Ladungen und Magneten das selbe sind?"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA1_1"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/Türkis"
+                    android:text="Ja"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA1_2"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/Türkis"
+                    android:text="Nein"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA1_submit"
+                    android:layout_margin="5dp"
+                    android:text="Submit"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/txtA1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|normal"
+                    android:textSize="20sp"
+                    android:visibility="invisible"
+                    android:text=""/>
+            </LinearLayout>
+            <!-- Aufgabe 2 -->
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Aufgabe 2:"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/elementarmagnetmodell_quiz"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Das Bild zeigt Elementarmagnete in einer Eisenstage. \nIst das Material magnetisiert?"
+                    android:textSize="25sp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA2_1"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/Türkis"
+                    android:text="Ja"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA2_2"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/Türkis"
+                    android:text="Nein"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA2_submit"
+                    android:layout_margin="5dp"
+                    android:text="Submit"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <!-- Aufgabe 3 -->
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Aufgabe 3:"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wenn man einen Magneten zerteilt, entstehen einzelne Dipole bzw. zwei separate Magnete. \nStimmt diese Aussage?"
+                    android:textSize="25sp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA3_1"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/Türkis"
+                    android:text="Ja"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA3_2"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/Türkis"
+                    android:text="Nein"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA3_submit"
+                    android:layout_margin="5dp"
+                    android:text="Submit"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <!-- Aufgabe 4 -->
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Aufgabe 4:"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vor Ihnen befindet sich ein elektrischer Leiter, in der Form von einer Stange, die Spitze von diesem schaut auf Sie. Der Elektronenstrom fließt zu Ihnen hin. \nIn welche Richtung verlaufen die Feldlinien? \n(Benutzen Sie die Linke-Hand-Regel.)"
+                    android:textSize="25sp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA4_1"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/Türkis"
+                    android:text="Im Uhrzeigersinn"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA4_2"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/Türkis"
+                    android:text="Gegen Uhrzeigersinn"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA4_submit"
+                    android:layout_margin="5dp"
+                    android:text="Submit"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <!-- Aufgabe 5 -->
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Aufgabe 5:"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vor Ihnen befindet sich ein elektrischer Leiter, in der Form von einer Stange, die Spitze von diesem schaut auf Sie. Die Protonen fließen in Ihre Richtung. \nIn welche Richtung wirkt die Lorentzkraft?"
+                    android:textSize="25sp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA5_1"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/Türkis"
+                    android:text="Von Ihnen aus nach Links"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA5_2"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/Türkis"
+                    android:text="Von Ihnen aus nach Oben"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA5_submit"
+                    android:layout_margin="5dp"
+                    android:text="Submit"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <!-- Aufgabe 6 -->
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Aufgabe 6:"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wie lauten die Formel für die Lorenzkraft? \nWir nehmen an, dass sich die geladenen Teilchen senkrecht zur Richtung des Magnetfeldes bewegen."
+                    android:textSize="25sp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA6_1"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/Türkis"
+                    android:text="N • e • B"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA6_2"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/Türkis"
+                    android:text="q • v • B"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA6_submit"
+                    android:layout_margin="5dp"
+                    android:text="Submit"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <!-- Aufgabe 7 -->
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Aufgabe 7:"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Was ändert sich bei der Formel für die Lorenzkraft, wenn sich die geladenen Teilchen mit dem Winkel α auf das Magnetfeld zubewegen?"
+                    android:textSize="25sp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA7_1"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/Türkis"
+                    android:text="sin(α)"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA7_2"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/Türkis"
+                    android:text="tan(α)"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA7_3"
+                    android:layout_margin="5dp"
+                    android:backgroundTint="@color/Türkis"
+                    android:text="cos(α)"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA7_submit"
+                    android:layout_margin="5dp"
+                    android:text="Submit"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <!-- Aufgabe 8 -->
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Aufgabe 8:"
+                    android:textSize="30sp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Wir haben folgende Werte gegeben:"
+                    android:textSize="25sp"/>
+                <ru.noties.jlatexmath.JLatexMathView
+                    android:id="@+id/MFL_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dip"
+                    android:background="@color/transparent"
+                    app:jlmv_alignVertical="center"
+                    app:jlmv_alignHorizontal="center"
+                    app:jlmv_textSize="30sp"/>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <NumberPicker
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/txtA8"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:id="@+id/nPA8_1"/>
+                    <TextView
+                        android:id="@+id/txtA8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=","
+                        android:textSize="35sp"
+                        app:layout_constraintStart_toEndOf="@id/nPA8_1"
+                        app:layout_constraintEnd_toStartOf="@id/nPA8_2"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"/>
+                    <NumberPicker
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/nPA8_2"
+                        app:layout_constraintStart_toEndOf="@id/txtA8"
+                        app:layout_constraintEnd_toStartOf="@id/nPA8_3"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"/>
+                    <NumberPicker
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/nPA8_3"
+                        app:layout_constraintStart_toEndOf="@id/nPA8_2"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnA8_submit"
+                    android:layout_margin="5dp"
+                    android:text="Submit"
+                    android:textSize="25sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <!-- ProgressBar -->
+            <TextView
+                android:id="@+id/lblProgressbar_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Erledigte Aufgaben 0 von x"
+                android:textSize="20sp"/>
+            <ProgressBar
+                android:id="@+id/progressbar_done"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:max="10"
+                android:progress="0"
+                android:scaleY="3"/>
+            <TextView
+                android:id="@+id/lblProgressbar_correct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig gelöste Aufgaben 0 von 0"
+                android:textSize="20sp"/>
+            <ProgressBar
+                android:id="@+id/progressbar_correct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:max="0"
+                android:progress="0"
+                android:scaleY="3"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
